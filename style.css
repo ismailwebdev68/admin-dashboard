@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+}
+.container {
+    margin: auto;
+    display: grid;
+    grid-template: repeat(6, 161px) / repeat(5, 1fr);
+}
+.sidepanel {
+    grid-area: 1 / 1 / 7 / 2;
+    background-color: #1992d4;
+    color: white;
+    padding: 20px 0 0 20px;
+    display: grid;
+    grid-template: repeat(12, 45px) / 237px;
+}
+.header {
+    grid-area: 1 / 2 / 2 / 6;
+    background-color: #ffffff;
+    box-shadow: -1px -1px 16px 0px #c3c3c3;
+    z-index: 1;
+    display: grid;
+    grid-template: repeat(3, 53px) / repeat(25, 56px);
+}
+.content {
+    grid-area: 2 / 2 / 7 / 6;
+    background-color: #e2e8f0;
+    display: flex;
+    padding: 40px 0 0 20px;
+}
+.sitems {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 10px;
+}
+.projects{
+    display: grid;
+    grid-template: repeat(3, 230px) / repeat(3, 370px);
+}
+.project-cards{
+    width: 310px;
+    height: 160px;
+    padding: 30px 20px 20px 20px;
+    background-color: #FFFFFF;
+    border-left: 5px solid #fbbc05;
+    border-radius: 5px;
+    box-shadow: 3px 3px 8px lightgray;
+}
+.card-images{
+    display: flex;
+    gap: 30px;
+    margin-top: 15px;
+    margin-left: 170px;
+}
+.card-heading{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+.card-content{
+    font-size: 14px;
+    color: #636363;
+}
+.paras{
+    height: 120px;
+}
+.sidebar{
+    height: 699px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.procs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.announcements{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.trcard-content{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.icons:hover{
+    background-color: rgb(226, 225, 225);
+    border-radius: 50px;
+    cursor: pointer;
+}
+#ditem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#searchbar{
+    grid-area: 1 / 3 / 2 / 15;
+}
+#pinfo{
+    grid-area: 1 / 20 / 2 / 25;
+    gap: 30px;
+    font-size: 18px;
+    font-weight: 700;
+}
+#profile{
+    grid-area: 2 / 3 / 4 / 15;
+}
+#pbuttons{
+    grid-area: 2 / 18 / 4 / 25;
+    gap: 30px;
+}
+#ancard{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: #FFFFFF;
+    box-shadow: 3px 3px 8px lightgray;
+    border-radius: 5px;
+    gap: 20px;
+}
+#trcard{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 3px 3px 8px lightgray;
+    border-radius: 5px;
+    gap: 20px;
+}
+input{
+    border: none;
+    background-color: #E2E8F0;
+    height: 30px;
+    width: 615px;
+    border-radius: 30px;
+}
+button{
+    width: 100px;
+    height: 35px;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #1992d4;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
